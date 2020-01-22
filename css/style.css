@@ -1,0 +1,33 @@
+:root {
+	--violet-primary: hsl(256, 26%, 20%);
+	--gray-blue-primary: hsl(216, 30%, 68%);
+
+	--dark-violet-neutral: hsl(270, 9%, 17%);
+	--dark-gray-violet: hsl(273, 4%, 51%);
+	--light-gray: hsl(0, 0%, 98%);
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+	font-size: 1.6rem;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+.attribution {
+	font-size: 1rem;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
