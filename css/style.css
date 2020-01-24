@@ -250,6 +250,10 @@ html {
 	margin-right: auto;
 }
 
+.footer__brand-icons a {
+	text-decoration: none;
+}
+
 .footer__brand-icon {
 	padding: 0.5rem;
 }
