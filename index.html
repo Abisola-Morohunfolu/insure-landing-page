@@ -30,6 +30,7 @@
 				<span class="nav-icon">&nbsp;</span>
 			</label>
 			<div class="mobile__nav-background">&nbsp;</div>
+			<div class="blur-bg">&nbsp;</div>
 
 			<ul class="nav__list">
 				<li class="nav__item"><a href="#" class="nav__link">How we work</a></li>
@@ -58,6 +59,16 @@
 				</p>
 				<a href="#" class="btn btn-white btn-header">View plans</a>
 			</div>
+			<div class="header__bg">
+				<picture class="header__bg-1">
+					<source media="(max-width: 600px)" srcset="./images/bg-pattern-intro-left-mobile.svg" />
+					<img src="./images/bg-pattern-intro-left-desktop.svg" alt="Insure Pattern" />
+				</picture>
+				<picture class="header__bg-2">
+					<source media="(max-width: 600px)" srcset="./images/bg-pattern-intro-right-mobile.svg" />
+					<img src="./images/bg-pattern-intro-right-desktop.svg" alt="Insure Pattern" />
+				</picture>
+			</div>
 		</header>
 
 		<main>
@@ -68,7 +79,9 @@
 				<!--Benefits Box Section-->
 				<div class="benefits">
 					<div class="benefits__box">
-						<i class="benefits__box-icon"></i>
+						<span class="benefits__box-icon">
+							<img src="./images/icon-snappy-process.svg" alt="Snappy Process" />
+						</span>
 						<h3 class="heading-tertiary">Snappy Process</h3>
 						<p class="benefits__box-text">
 							Our application process can be completed in minutes, not hours. Don’t get stuck
@@ -76,7 +89,9 @@
 						</p>
 					</div>
 					<div class="benefits__box">
-						<i class="benefits__box-icon"></i>
+						<span class="benefits__box-icon">
+							<img src="./images/icon-affordable-prices.svg" alt="Affordable Prices" />
+						</span>
 						<h3 class="heading-tertiary">Affordable Prices</h3>
 						<p class="benefits__box-text">
 							We don’t want you worrying about high monthly costs. Our prices may be low, but we
@@ -84,7 +99,9 @@
 						</p>
 					</div>
 					<div class="benefits__box">
-						<i class="benefits__box-icon"></i>
+						<span class="benefits__box-icon">
+							<img src="./images/icon-people-first.svg" alt="People First" />
+						</span>
 						<h3 class="heading-tertiary">People First</h3>
 						<p class="benefits__box-text">
 							Our plans aren’t full of conditions and clauses to prevent payouts. We make sure
@@ -106,7 +123,31 @@
 
 		<footer class="footer">
 			<div class="footer__brand">
-				<img src="./images/logo.svg" alt="Insure Logo" />
+				<div class="footer__brand-logo">
+					<img src="./images/logo.svg" alt="Insure Logo" />
+				</div>
+				<div class="footer__brand-icons">
+					<a href="#">
+						<img src="./images/icon-facebook.svg" alt="icon-facebook" class="footer__brand-icon" />
+					</a>
+					<a href="#">
+						<img src="./images/icon-twitter.svg" alt="icon-twitter" class="footer__brand-icon" />
+					</a>
+					<a href="#">
+						<img
+							src="./images/icon-pinterest.svg"
+							alt="icon-pinterest"
+							class="footer__brand-icon"
+						/>
+					</a>
+					<a href="#">
+						<img
+							src="./images/icon-instagram.svg"
+							alt="icon-instagram"
+							class="footer__brand-icon"
+						/>
+					</a>
+				</div>
 			</div>
 			<div class="footer__nav">
 				<!--beginning of footer nav-->
